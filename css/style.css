@@ -318,14 +318,14 @@ footer{
     .collegelogo{
         right: 3%;
         top: 2%;
-        width: 130px;
-        height: 130px;
+        width: 30%;
+        height: 30%;
     }
     .collegelogoimg{
         top:2%;
         right: 3%;
-        width: 130px;
-        height: 130px;
+        width: 30%;
+        height: 30%;
     }
 
     .main{
@@ -342,7 +342,7 @@ footer{
         margin-top: 18%;
         margin-bottom: -2px;
         margin-left: 3%;
-        width: 40%;
+        width: 50%;
         text-align: center;
     }
     .menu ul{
@@ -379,8 +379,8 @@ footer{
     }
     .logo{
         padding-left: 2%;
-        padding-right: 10%;
-    font-size: x-large;
+        /*padding-right: 10%;*/
+    font-size: normal;
     padding-top: 5%;
     padding-bottom: 5%;
     }
