@@ -37,7 +37,8 @@ table{
         width: 90%;
     }
     footer{
-        position: absolute;
+        
+        position: relative;
         left: 0;
         bottom: 0;
     }
