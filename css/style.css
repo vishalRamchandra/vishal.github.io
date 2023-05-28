@@ -316,16 +316,16 @@ footer{
         transform: rotateZ(-45deg); 
     }*/
     .collegelogo{
-        right: 5%;
+        right: 3%;
         top: 2%;
-        width: 160px;
-        height: 160px;
+        width: 130px;
+        height: 130px;
     }
     .collegelogoimg{
         top:2%;
-        right: 5%;
-        width: 160px;
-        height: 160px;
+        right: 3%;
+        width: 130px;
+        height: 130px;
     }
 
     .main{
