@@ -412,6 +412,8 @@ footer{
         background: transparent;
     }
     .left img{
+        width: 35%;
+        height: auto;
         float: left;
         margin-left: -2rem;
     }
