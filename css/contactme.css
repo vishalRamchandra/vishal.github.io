@@ -86,8 +86,7 @@ button{
         float: right;
     }
     footer{
-        display: none;
-        position: absolute;
+        position: relative;
         bottom: 0;
         right: 0;
     }
