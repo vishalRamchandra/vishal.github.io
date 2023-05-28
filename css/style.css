@@ -354,12 +354,13 @@ footer{
     }
     .menu ul li{
         border-bottom: 2px solid red;
+        margin-bottom: 1%;
     }
     .menu ul li:last-child{
         border-bottom: none;
     }
     .menu li, .menu a{
-        font-size: larger;
+        /*font-size: larger;*/
         text-decoration: none;
     }
     /* ------ BODY -------- */
@@ -377,9 +378,9 @@ footer{
         height: auto;
     }
     .logo{
-        padding-left: 8%;
-        padding-right: 8%;
-    font-size: xx-large;
+        padding-left: 2%;
+        padding-right: 10%;
+    font-size: x-large;
     padding-top: 5%;
     padding-bottom: 5%;
     }
