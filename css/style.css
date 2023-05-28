@@ -188,7 +188,7 @@ figure img{
     align-items: center;
 }
 .myselfdecription{
-    width: 70%;
+    width: 95%;
 }
 .rectangle{
     position: absolute;
@@ -342,9 +342,10 @@ footer{
         position: absolute;
         z-index: 1;
         /*background-color: rgba(255, 255, 255, 0.884);*/
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(36, 33, 33);
         box-shadow: 6px 4px 20px rgb(238, 30, 22);
-        font-style: bold;
+        /*color: blue;*/
+        font-style: bolder;
         border-radius: 1.2rem;
         margin-top: 18%;
         margin-bottom: -2px;
@@ -417,7 +418,7 @@ footer{
         background: transparent;
     }
     .left img{
-        width: 100%;
+        width: 90%;
         height: auto;
         float: left;
         margin-left: 1rem;
@@ -429,12 +430,12 @@ footer{
         padding: 0rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .card{
         position: relative;
-        width: 150px;
-        height: 200px;
+        width: 100px;
+        height: 180px;
         border-radius: 10px;
         background-color: rgba(12, 12, 12, 0.699);
         transform: rotate(-10deg);
@@ -446,8 +447,8 @@ footer{
         position: absolute;
         top: 0rem;
         left: 0rem;
-        width: 150px;
-        height: 200px;
+        width: 100px;
+        height: 180px;
         display: block;
         transform: rotate(10deg);
         border-radius: 10px;
