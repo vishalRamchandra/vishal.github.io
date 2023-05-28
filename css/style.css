@@ -320,13 +320,13 @@ footer{
     }*/
     .collegelogo{
         right: 3%;
-        top: 10%;
+        top: 8%;
         border-radius: 50%;
         width: 100px;
         height: 100px;
     }
     .collegelogoimg{
-        top:10%;
+        top: 8%;
         right: 3%;
         border-radius: 50%;
         width:  100px;
@@ -342,8 +342,9 @@ footer{
         position: absolute;
         z-index: 1;
         /*background-color: rgba(255, 255, 255, 0.884);*/
-        background-color: rgba(0, 0, 0, 0.548);
+        background-color: rgba(0, 0, 0, 0.788);
         box-shadow: 6px 4px 20px rgb(238, 30, 22);
+        font-style: bold;
         border-radius: 1.2rem;
         margin-top: 18%;
         margin-bottom: -2px;
@@ -398,7 +399,7 @@ footer{
     /*padding-bottom: 5%;*/
     }
     .left{
-        padding-right: 1%;
+        padding-right: 0%;
         padding-bottom: 1%;
     }
     .secflex{
@@ -407,7 +408,7 @@ footer{
     }
     .left1{
         float: left;
-        width: 55%;
+        width: 75%;
         margin-left: 0;
         padding-right: 0;
         border-radius: 0px;
@@ -416,10 +417,10 @@ footer{
         background: transparent;
     }
     .left img{
-        width: 90%;
+        width: 100%;
         height: auto;
         float: left;
-        margin-left: -2rem;
+        margin-left: 1rem;
     }
     .gallerycards{
         width: 100%;
@@ -455,8 +456,8 @@ footer{
         position: absolute;
         top: -1.5rem;
         left: 48%;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         background: rgba(127, 255, 212, 0.767);
         transform: rotateZ(45deg);
         z-index: 0;
@@ -473,7 +474,7 @@ footer{
         border: 2px solid rgb(194, 8, 241);
     }
     .myselfdecription{
-        width: 90%;
+        width: 95%;
     }
 }
 
