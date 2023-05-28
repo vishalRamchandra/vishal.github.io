@@ -1,0 +1,102 @@
+.main{
+    align-items: center;
+    text-align: center;
+    background-color: rgba(129, 241, 226, 0.644);
+}
+.gallerycards2{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 2rem;
+}
+/* .image{
+    padding: 0rem;
+    border: 6px solid goldenrod;
+    border-radius: 6px;
+} */
+
+.collegeflex{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    object-fit: cover;
+}
+.flex1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.flex2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.flex3{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.flex img{
+    width: 80%;
+    height: auto;
+    padding: 0.4rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.753);
+}
+.flex div{
+    padding-bottom: 1%;
+}
+.gallerycards2 .image{
+    width: 100%;
+    height: auto;
+    padding: 0.4rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 5px rgb(245, 0, 0);
+}
+
+
+/* .card::before, .card::after{
+    content: '';
+    position: relative;
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 5px);
+    width: calc(100% + 5px);
+    background-color: rgba(109, 100, 100, 0.767);
+    transform: skewY(-45deg);
+} */
+
+/* ------------ MEDIA QUERIES (MOBILE DEVICES) --------------- */
+
+@media screen and (max-width: 600px) {
+    .collegeflex{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        object-fit: cover;
+    }
+    .flex1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 1rem;
+    }
+    .flex2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 1rem;
+    }
+    .flex3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gallerycards2{
+        display: grid;
+        width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,154 @@
+/* body{
+    
+    background: rgba(109, 107, 107, 0.521);
+}
+.main{
+    background: rgba(255, 255, 255, 0.87);
+    color: rgb(2, 2, 2);
+} */
+.teacherscard{
+    width: 90%; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    line-height: normal;
+}
+.imageofteachers img{
+    padding: 2%;
+    border-radius: 18px;
+    border: 4px solid rgb(252, 165, 3);
+}
+.imageofteachers{
+    padding: 3%;
+    margin-left: 1rem;
+
+    text-align: center;
+    background: rgba(255, 0, 0, 0.918);
+    color: white;
+    border-radius: 14px;
+}
+.seniorsflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+
+    width: 80%; 
+    background: rgba(4, 8, 250, 0.89); 
+    margin: auto;display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    overflow-x: scroll; 
+    border-radius: 16px
+}
+.seniors img{
+    width: 200px;
+    height: 200px;
+    padding: 2%;
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border: 3px solid white;
+}
+.seniors{
+    text-align: center;
+    color: white;
+    padding: 1rem 1rem 1rem 0.5rem;
+}
+.btnslider1{
+    position: absolute;
+    right: 0rem;
+    color: rgb(109, 108, 108);
+    border: none;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.438);
+    font-size: xx-large;
+}
+.btnslider2{
+    position: absolute;
+    left: 0rem;
+    background: rgba(0, 0, 0, 0.438);
+    border: none;
+    height: 100%;
+    color: rgb(109, 108, 108);
+    font-size: xx-large;
+}
+span{
+    white-space: nowrap;
+}
+h3{
+    line-height: 1em;
+}
+/* ------------- MEDIA QUERIES (MOBILE DEVICES) ------------- */
+
+ @media screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .teacherscard{
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        gap: 1rem; */
+        width: 80%;
+        display: block;
+        align-items: center;
+        line-height: 120%;
+        font-size: 1.4em;
+    }
+    .imageofteachers{
+        margin-bottom: 2rem;
+        align-items: center;
+        margin-left: auto;
+    }
+    .imageofteachers img{
+        padding: 5%;
+        background-color: white;
+        border-radius: 25px;
+        border: 3px solid rgb(252, 3, 3);
+    }
+    .seniorsflex{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        width: 100%; 
+        background: transparent; 
+        border-radius: 16px
+    }
+    .seniors img{
+        border: 3px solid rgb(18, 14, 235);
+        padding: 3%;
+        margin: 0;
+    }
+    .seniors{
+        text-align: center;
+        color: rgb(7, 41, 236);
+        padding: 0rem 0rem 2rem 0.5rem;
+    }
+    .seniorsflex:first-child{
+        margin-left: 0rem;
+    }
+    .btnslider1{
+        display: none;
+        position: absolute;
+        right: 0rem;
+        color: rgb(109, 108, 108);
+        border: none;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.438);
+        font-size: xx-large;
+    }
+    .btnslider2{
+        display: none;
+        position: absolute;
+        left: 0rem;
+        background: rgba(0, 0, 0, 0.438);
+        border: none;
+        height: 100%;
+        color: rgb(109, 108, 108);
+        font-size: xx-large;
+    }
+} 
