@@ -320,13 +320,13 @@ footer{
     }*/
     .collegelogo{
         right: 3%;
-        top: 15%;
+        top: 10%;
         border-radius: 50%;
         width: 100px;
         height: 100px;
     }
     .collegelogoimg{
-        top:15%;
+        top:10%;
         right: 3%;
         border-radius: 50%;
         width:  100px;
@@ -341,7 +341,8 @@ footer{
         display: none;
         position: absolute;
         z-index: 1;
-        background-color: rgba(255, 255, 255, 0.884);
+        /*background-color: rgba(255, 255, 255, 0.884);*/
+        background-color: rgba(0, 0, 0, 0.548);
         box-shadow: 6px 4px 20px rgb(238, 30, 22);
         border-radius: 1.2rem;
         margin-top: 18%;
